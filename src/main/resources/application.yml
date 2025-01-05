@@ -1,0 +1,12 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 2GB
+      max-request-size: 2GB
+
+server:
+  port: 8080
+
+storage:
+  upload-dir: data/uploads
+  output-dir: data/output
